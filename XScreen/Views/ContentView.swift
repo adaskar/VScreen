@@ -79,6 +79,27 @@ struct ContentView: View {
                     }
                 }
                 
+                Button(action: {
+                    Task {
+                        if await screenRecorder.canRecord {
+                            if (screenRecorder.isRunning) {
+                                await screenRecorder.stop()
+                            }
+                            else {
+                                await screenRecorder.start()
+                            }
+                        } else {
+                            isUnauthorized = true
+                        }
+                    }
+                }) {
+                    Image(systemName: screenRecorder.isRunning ? "stop.circle" : "play.circle")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 20, height: 20)
+                }
+                .buttonStyle(PlainButtonStyle())
+                
                 Slider(value: $opacity, in: 0.3...1.0)
                     .frame(width: 100)
                     .onChange(of: opacity) {
