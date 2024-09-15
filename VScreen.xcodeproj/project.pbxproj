@@ -23,6 +23,7 @@
 		CAC2F1342C77987A0024EB3A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAC2F1362C7798A80024EB3A /* CaptureEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureEngine.swift; sourceTree = "<group>"; };
 		CAC2F1382C7AEDAD0024EB3A /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		CAC84CAF2C96EA57009EDA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		CAE9CCC82C7785E600241742 /* VScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE9CCD12C7785E700241742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE9CCD42C7785E700241742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 		CAE9CCCA2C7785E600241742 /* VScreen */ = {
 			isa = PBXGroup;
 			children = (
+				CAC84CAF2C96EA57009EDA23 /* Info.plist */,
 				CAE9CCD62C7785E700241742 /* VScreen.entitlements */,
 				CAE9CCD12C7785E700241742 /* Assets.xcassets */,
 				CAC2F12E2C7797790024EB3A /* Views */,
@@ -303,6 +305,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VScreen/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2024 Gurhan POLAT";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +335,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VScreen/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "© 2024 Gurhan POLAT";
 				LD_RUNPATH_SEARCH_PATHS = (
