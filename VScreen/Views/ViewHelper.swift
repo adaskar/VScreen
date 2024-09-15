@@ -1,6 +1,6 @@
 //
 //  ViewHelper.swift
-//  XScreen
+//  VScreen
 //
 //  Created by Gurhan Polat on 25.08.2024.
 //

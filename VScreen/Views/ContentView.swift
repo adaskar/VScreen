@@ -35,7 +35,7 @@ struct ContentView: View {
                     }
                 }
             }
-            .navigationTitle("XScreen")
+            .navigationTitle("VScreen")
             .onAppear {
                 Task {
                     if await screenRecorder.canRecord {

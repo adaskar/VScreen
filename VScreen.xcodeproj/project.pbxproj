@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAC2F12F2C7797790024EB3A /* CapturePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F12B2C7797790024EB3A /* CapturePreview.swift */; };
-		CAC2F1332C77978F0024EB3A /* XScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F1322C77978F0024EB3A /* XScreenApp.swift */; };
+		CAC2F1332C77978F0024EB3A /* VScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F1322C77978F0024EB3A /* VScreenApp.swift */; };
 		CAC2F1352C77987A0024EB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F1342C77987A0024EB3A /* ContentView.swift */; };
 		CAC2F1372C7798A80024EB3A /* CaptureEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F1362C7798A80024EB3A /* CaptureEngine.swift */; };
 		CAC2F1392C7AEDAD0024EB3A /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC2F1382C7AEDAD0024EB3A /* ViewHelper.swift */; };
@@ -19,15 +19,15 @@
 
 /* Begin PBXFileReference section */
 		CAC2F12B2C7797790024EB3A /* CapturePreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturePreview.swift; sourceTree = "<group>"; };
-		CAC2F1322C77978F0024EB3A /* XScreenApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XScreenApp.swift; sourceTree = "<group>"; };
+		CAC2F1322C77978F0024EB3A /* VScreenApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VScreenApp.swift; sourceTree = "<group>"; };
 		CAC2F1342C77987A0024EB3A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAC2F1362C7798A80024EB3A /* CaptureEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureEngine.swift; sourceTree = "<group>"; };
 		CAC2F1382C7AEDAD0024EB3A /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
-		CAE9CCC82C7785E600241742 /* XScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAE9CCC82C7785E600241742 /* VScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAE9CCD12C7785E700241742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAE9CCD42C7785E700241742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CAE9CCD62C7785E700241742 /* XScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XScreen.entitlements; sourceTree = "<group>"; };
-		CAE9CCE12C77863700241742 /* ScreenRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenRecorder.swift; path = XScreen/ScreenRecorder.swift; sourceTree = SOURCE_ROOT; };
+		CAE9CCD62C7785E700241742 /* VScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VScreen.entitlements; sourceTree = "<group>"; };
+		CAE9CCE12C77863700241742 /* ScreenRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScreenRecorder.swift; path = VScreen/ScreenRecorder.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 		CAE9CCBF2C7785E600241742 = {
 			isa = PBXGroup;
 			children = (
-				CAE9CCCA2C7785E600241742 /* XScreen */,
+				CAE9CCCA2C7785E600241742 /* VScreen */,
 				CAE9CCC92C7785E600241742 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,22 +62,22 @@
 		CAE9CCC92C7785E600241742 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAE9CCC82C7785E600241742 /* XScreen.app */,
+				CAE9CCC82C7785E600241742 /* VScreen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAE9CCCA2C7785E600241742 /* XScreen */ = {
+		CAE9CCCA2C7785E600241742 /* VScreen */ = {
 			isa = PBXGroup;
 			children = (
-				CAE9CCD62C7785E700241742 /* XScreen.entitlements */,
+				CAE9CCD62C7785E700241742 /* VScreen.entitlements */,
 				CAE9CCD12C7785E700241742 /* Assets.xcassets */,
 				CAC2F12E2C7797790024EB3A /* Views */,
 				CAC2F1362C7798A80024EB3A /* CaptureEngine.swift */,
-				CAC2F1322C77978F0024EB3A /* XScreenApp.swift */,
+				CAC2F1322C77978F0024EB3A /* VScreenApp.swift */,
 				CAE9CCD32C7785E700241742 /* Preview Content */,
 			);
-			path = XScreen;
+			path = VScreen;
 			sourceTree = "<group>";
 		};
 		CAE9CCD32C7785E700241742 /* Preview Content */ = {
@@ -92,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAE9CCC72C7785E600241742 /* XScreen */ = {
+		CAE9CCC72C7785E600241742 /* VScreen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAE9CCD92C7785E700241742 /* Build configuration list for PBXNativeTarget "XScreen" */;
+			buildConfigurationList = CAE9CCD92C7785E700241742 /* Build configuration list for PBXNativeTarget "VScreen" */;
 			buildPhases = (
 				CAE9CCC42C7785E600241742 /* Sources */,
 				CAE9CCC52C7785E600241742 /* Frameworks */,
@@ -104,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = XScreen;
-			productName = XScreen;
-			productReference = CAE9CCC82C7785E600241742 /* XScreen.app */;
+			name = VScreen;
+			productName = VScreen;
+			productReference = CAE9CCC82C7785E600241742 /* VScreen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CAE9CCC32C7785E600241742 /* Build configuration list for PBXProject "XScreen" */;
+			buildConfigurationList = CAE9CCC32C7785E600241742 /* Build configuration list for PBXProject "VScreen" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAE9CCC72C7785E600241742 /* XScreen */,
+				CAE9CCC72C7785E600241742 /* VScreen */,
 			);
 		};
 /* End PBXProject section */
@@ -162,7 +162,7 @@
 				CAC2F1372C7798A80024EB3A /* CaptureEngine.swift in Sources */,
 				CAE9CCE62C77863700241742 /* ScreenRecorder.swift in Sources */,
 				CAC2F1352C77987A0024EB3A /* ContentView.swift in Sources */,
-				CAC2F1332C77978F0024EB3A /* XScreenApp.swift in Sources */,
+				CAC2F1332C77978F0024EB3A /* VScreenApp.swift in Sources */,
 				CAC2F12F2C7797790024EB3A /* CapturePreview.swift in Sources */,
 				CAC2F1392C7AEDAD0024EB3A /* ViewHelper.swift in Sources */,
 			);
@@ -294,11 +294,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XScreen/XScreen.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VScreen/VScreen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VScreen/Preview Content\"";
 				DEVELOPMENT_TEAM = 646A6XRW95;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -311,7 +311,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adaskar.XScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaskar.VScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,11 +323,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = XScreen/XScreen.entitlements;
+				CODE_SIGN_ENTITLEMENTS = VScreen/VScreen.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"XScreen/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"VScreen/Preview Content\"";
 				DEVELOPMENT_TEAM = 646A6XRW95;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -340,7 +340,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adaskar.XScreen;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adaskar.VScreen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,7 +350,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAE9CCC32C7785E600241742 /* Build configuration list for PBXProject "XScreen" */ = {
+		CAE9CCC32C7785E600241742 /* Build configuration list for PBXProject "VScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAE9CCD72C7785E700241742 /* Debug */,
@@ -359,7 +359,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAE9CCD92C7785E700241742 /* Build configuration list for PBXNativeTarget "XScreen" */ = {
+		CAE9CCD92C7785E700241742 /* Build configuration list for PBXNativeTarget "VScreen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CAE9CCDA2C7785E700241742 /* Debug */,

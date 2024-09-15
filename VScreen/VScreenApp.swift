@@ -1,6 +1,6 @@
 //
-//  XScreenApp.swift
-//  XScreen
+//  VScreenApp.swift
+//  VScreen
 //
 //  Created by Gurhan Polat on 22.08.2024.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct XScreenApp: App {
+struct VScreenApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {

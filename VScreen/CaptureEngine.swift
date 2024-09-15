@@ -21,7 +21,7 @@ class CaptureEngine: NSObject, @unchecked Sendable {
     
     private(set) var stream: SCStream?
     private var streamOutput: CaptureEngineStreamOutput?
-    private let videoSampleBufferQueue = DispatchQueue(label: "com.adaskar.XScreen.VideoSampleBufferQueue")
+    private let videoSampleBufferQueue = DispatchQueue(label: "com.adaskar.VScreen.VideoSampleBufferQueue")
     
     private var continuation: AsyncThrowingStream<CapturedFrame, Error>.Continuation?
     
