@@ -340,6 +340,8 @@ extension SCWindow {
 
 extension SCDisplay {
     var displayName: String {
-        "\(width) x \(height)"
+        let s = NSScreen.screens.first { ($0.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? CGDirectDisplayID) == displayID }
+        let desc = s != nil ? "\(s!.localizedName)" : "N/A"
+        return "\(desc) (\(width) x \(height))"
     }
 }
