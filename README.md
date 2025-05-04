@@ -12,6 +12,5 @@ VScreen solves the problem of monitoring activity on secondary displays or speci
 - View specific application windows in a dedicated viewer
 - Low-latency screen mirroring
 - Native macOS integration
-- Adjustable refresh rates for performance balancing
 - Minimal CPU/GPU usage
 - User-friendly interface
